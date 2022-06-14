@@ -20,7 +20,7 @@ describe("Check the rental flow", () => {
     cy.get("#card_number").type("4242424242424242");
     cy.get("#email").type("testemail@test.com");
     //Then('I check the response code of the request and make a rental successfully')
-    cy.intercept("POST", "http://qalab.pl.tivixlabs.com/rent/10").as(
+    cy.intercept("POST", "http://qalab.pl.tivixlabs.com/rent/*").as(
       "response"
     );
     cy.get(".btn-primary").click();
