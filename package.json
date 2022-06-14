@@ -1,0 +1,24 @@
+{
+  "name": "cypress-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarolinaRMielcarek/tivix-task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarolinaRMielcarek/tivix-task/issues"
+  },
+  "homepage": "https://github.com/KarolinaRMielcarek/tivix-task#readme",
+  "devDependencies": {
+    "cypress": "^10.1.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
